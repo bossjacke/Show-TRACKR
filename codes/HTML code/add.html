@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+    <link rel="stylesheet" href="../CSS code/style.css">
+    <a href="./movielist.html"></a>
+    <style>
+        
+        section {
+            margin: 100px;
+        }
+
+        section div div {
+            margin-left: 10px
+        }
+
+        section div div {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .new {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 30px;
+            background-color: gainsboro;
+        }
+
+        .add {
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .button {
+            color: aliceblue;
+            border-color: gainsboro;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 10px;
+            margin-bottom: 15px;
+            padding: 5px;
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html" style="background-color: #efd444;">Show <strong>TRACKR</strong></a>
+        <a href="../../index.html">Home</a>
+        <a href="./add.html">Add</a>
+        <a class="loginnav" href="./login.html">Login</a>
+        <a href="./sign.html">Sign In</a>
+    </nav>
+    
+    <section>
+        <div class="new movies">
+            <h2 class="add">Add Tv Show</h2>
+            <div>
+                <label for="text">Name</label><br>
+                <input id="movieList" type="text" placeholder="Enter The Show Trackr" style="width: 990px;">
+
+            </div>
+            <br><button class="button" onclick="addMovie()">ADD</button>
+        </div>
+        <p class="added"></p>
+        <div>
+            <button onclick="showMovie()">show</button>
+            <p class="showmovie"></p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-deta">
+            <div class="footer-top">
+                <a href="../../index.html" class="footer-logo">
+                    <img src="../../img/logo/old-technology-device-cinema-video-260nw-371026679.webp"
+                        alt="SHOW TRACKR Logo">
+                    <span>SHOW TRACKR</span>
+                </a>
+                <ul class="footer-links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Licensing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                © 2023 <a href="../../index.html">SHOW TRACKR™</a>. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="../JS code/addmovie.js"></script>
+</body>
+
+</html>

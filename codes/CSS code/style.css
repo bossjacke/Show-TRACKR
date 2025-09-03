@@ -1,0 +1,298 @@
+.header {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+/* All navbar */
+nav {
+    background: white;
+    border: 1px #ccc solid;
+    display: flex;
+    
+    
+}
+
+nav a {
+    
+    font-size: 16px;
+    padding: 15px 18px;
+    border-color: #888;
+    border-color: #888;
+
+}
+
+.loginnav {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+/* navbar end */
+
+
+/* A to Z  letter*/
+div .letter1{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.letter{
+    
+    font-size: 20px;
+    margin: 28px;
+    
+}
+
+/* A to Z letter end */
+
+
+
+
+/* footer */
+footer {
+    margin-bottom: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  }
+  
+  .footer-deta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 16px;
+  }
+  
+  .footer-logo img {
+    height: 32px;
+    margin-right: 8px;
+  }
+  
+  .footer-logo span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-right: 24px;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 24px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  .footer-bottom a {
+    text-decoration: none;
+    color: #6b7280;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  /* footer end */
+
+/* login page */
+.login-box {
+    background: #fff;
+    padding: 100px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-box i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-login {
+    background: #4ade80;
+    color: #fff;
+}
+
+.btn-facebook {
+    background: #1877f2;
+    color: #fff;
+}
+
+.btn-google {
+    background: #ea4335;
+    color: #fff;
+}
+
+.links {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.links a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+/* login page end */
+
+/* index.html */
+/* movie list */
+
+.movielist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card-deta {
+    margin: 25px;
+    /* perspective: 1000px; optional for hover effect */
+    
+}
+
+.card {
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.7);
+}
+
+.card-image {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+    background-color: #1c1c1c;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 0 0 5px 0;
+}
+
+.card-episodes {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+    margin: 0;
+}
+/* movie list end */
+/* movielist.html */
+/* movie list */
+.moviedeta1{
+    margin: 10px 400px 30px 400px;
+    padding: 50px;
+    padding-top: 20px;
+    border: #888 solid 1px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.7);
+}
+.moviedeta2{
+    margin: 20px;
+}
+.moviedeta3{
+    
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* movie list end */
+
+
