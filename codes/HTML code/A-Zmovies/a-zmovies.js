@@ -1,7 +1,7 @@
 const container = document.getElementById("letterContainer");
 
-for (let i = 65; i <= 90; i++) { // ASCII codes for A-Z
-  const letter = String.fromCharCode(i); // Convert ASCII to character
+for (let i = 65; i <= 90; i++) { //  codes for A-Z
+  const letter = String.fromCharCode(i); // 
 
   const button = document.createElement("button");
   button.className = "letter";
