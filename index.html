@@ -31,8 +31,8 @@
   <a href="./codes/HTMLcode/movielist/movielist (Copy 8).html">Ass</a>
 
   <div>
-    <div class="letter1">f
-      <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="ilterShowsByLetter(a)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >A</button>
+    <div id="letterContainer" class="letter1" >
+      <!-- <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="ilterShowsByLetter(a)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >A</button>
       <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(b)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >B</button>
       <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(c)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >C</button>
       <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(d)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >D</button>
@@ -57,7 +57,7 @@
       <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(w)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >W</button>
       <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(x)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >X</button>
       <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(y)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >Y</button>
-      <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(z)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >Z</button>
+      <button style="border: 0px solid; width: 5px; height: 5px;" class="letter" onclick="filterShowsByLetter(z)" ondblclick="location.href='codes/HTML code/A-Zmovies/a-zmovies.html'" >Z</button> -->
     </div>
   </div>
   <!-- A to Z  letter end -->
@@ -106,7 +106,7 @@
 
       <section class="movielist">
         <!-- 1 -->
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTML code/movielist/movielist .html#info1" class="card">
             <img src="./img/movies  img/avengers-doomsday-will-be-civil-war-2-0-v0-byr3dhlopfie1.webp"
               alt="Avengers Doomsday" class="card-image">
@@ -120,18 +120,18 @@
 
         <!-- 2 -->
 
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy01).html#info2" class="card">
             <img src="./img/movies  img/Poster.jpg" alt="Superman" class="card-image">
             <div class="card-content">
-              
-              <h2 class="card-title">Superman</h2>
+
+              <h2  class="card-title">Superman</h2>
               <p class="card-episodes">Episodes: 09</p>
             </div>
           </a>
         </div>
         <!-- 3 -->
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy 3).html#info3" class="card">
             <img src="./img/movies  img/download (3).jpeg" alt="The Dark Knight" class="card-image">
             <div class="card-content">
@@ -141,7 +141,7 @@
           </a>
         </div>
         <!-- 4 -->
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy 4).html#info4" class="card">
             <img src="./img/movies  img/images.jpeg" alt="The Lion King" class="card-image">
             <div class="card-content">
@@ -151,7 +151,7 @@
           </a>
         </div>
         <!-- 5 -->
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy 5).html#info5" class="card">
             <img src="./img/movies  img/download (2).jpeg" alt="Spider-Man: Across the Spider-Verse" class="card-image">
             <div class="card-content">
@@ -161,7 +161,7 @@
           </a>
         </div>
         <!-- 6 -->
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy 6).html#info6" class="card">
             <img src="./img/movies  img/download (4).jpeg" alt="WALL·E" class="card-image">
             <div class="card-content">
@@ -184,7 +184,7 @@
         </div> -->
         <!-- 8 -->
 
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy 8).html#info8" class="card">
             <img src="./img/movies  img/wp12150012.jpg" alt="black adam" class="card-image">
             <div class="card-content">
@@ -192,9 +192,10 @@
               <p class="card-episodes">Episodes: 09</p>
             </div>
           </a>
-        </div><!-- 9 -->
+        </div>
+        <!-- 9 -->
 
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy 9).html#info9" class="card">
             <img src="./img/movies  img/download.jpeg" alt="Avengers: Endgame" class="card-image">
             <div class="card-content">
@@ -202,9 +203,10 @@
               <p class="card-episodes">Episodes: 09</p>
             </div>
           </a>
-        </div><!-- 10 -->
+        </div>
+        <!-- 10 -->
 
-        <div class="card-deta">
+        <div id="moviename" class="card-deta">
           <a href="./codes/HTMLcode/movielist/movielist (Copy 10).html#info10" class="card">
             <img src="./img/movies  img/71nQ9pOj6qL._UF894,1000_QL80_.jpg" alt="Joker" class="card-image">
             <div class="card-content">
@@ -247,14 +249,16 @@
     </div>
   </footer>
 
-  <script src="/codes/JS code/index.js"></script>
-  <script src="./codes/HTML code/A-Zmovies/a-zmovies.js">
-    function ilterShowsByLetter(letter) {
-  const filtered = filterShowsByLetter1(letter);
-  const list = document.getElementById("show-list");
-  list.innerHTML = filtered.map(show => `<li>${show}</li>`).join("");
-}
+  <script src="/codes/JS code/index.js">
+    
+
   </script>
+
+  <script src="./codes/HTML code/A-Zmovies/a-zmovies.js">
+    
+    
+  </script>
+
 </body>
 
 </html>
