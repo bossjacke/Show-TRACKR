@@ -12,7 +12,7 @@ for (let i = 65; i <= 90; i++) { // ASCII codes for A-Z
   button.style.marginTop = "10px";
   button.style.marginBottom = "20px";
   button.style.marginLeft = "10px";
-  button.style.marginRight = "10px";
+  button.style.marginRight = "auto";
 
 
   // Add onclick and ondblclick handlers
