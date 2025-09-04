@@ -10,7 +10,7 @@ for (let i = 65; i <= 90; i++) { // ASCII codes for A-Z
   button.style.width = "5px";
   button.style.height = "5px";
   button.style.marginTop = "10px";
-  button.style.marginBottom = "10px";
+  button.style.marginBottom = "20px";
   button.style.marginLeft = "10px";
   button.style.marginRight = "10px";
 
