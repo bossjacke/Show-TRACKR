@@ -39,8 +39,21 @@ class MovieCard {
   ];
   
   // 4. Render to DOM
-  const container = document.getElementById("movie-container");
-  movieList.forEach(movie => {
-    container.appendChild(movie.createCard());
-  });
+  // const container = document.getElementById("movie-container");
+  // movieList.forEach(movie => {
+  //   container.appendChild(movie.createCard());
+  // });
   
+// 5. Function to add a new movie and render only that one
+function addNewMovie(id, title, rating, time, imgSrc) {
+  const newMovie = new MovieCard(id, title, rating, time, imgSrc);
+  const newCard = newMovie.createCard();
+  container.appendChild(newCard);
+}
+
+
+
+
+
+
+
