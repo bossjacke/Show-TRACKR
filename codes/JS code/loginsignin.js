@@ -10,9 +10,9 @@ function signIn() {
     } else {
         alert("sign in successful")
         // Save localStorage
-        localStorage.setItem("userName", userName);
-        localStorage.setItem("userEmail", userEmail);
-        localStorage.setItem("userPassword", userPassword);
+        localStorage.setItem("userName", JSON.stringify(userName));
+        localStorage.setItem("userEmail", JSON.stringify(userEmail));
+        localStorage.setItem("userPassword", JSON.stringify(userPassword));
 
 
     }
@@ -35,8 +35,8 @@ function login() {
     // localStorage.setItem("userPassword", userPassword1);
 
 
-    const savedEmail = JSON.parse(localStorage.getItem("userEmail")) || [];
-    const savedPassword = JSON.parse(localStorage.getItem("userPassword")) || [];
+    const savedEmail = JSON.parse(localStorage.getItem("userEmail"));
+    const savedPassword = JSON.parseInt(localStorage.getItem("userPassword"));
     console.log(savedPassword);
 
     const userEmail = document.getElementById("email").value.trim();
